@@ -1,0 +1,48 @@
+
+
+.detail .detailvideo{
+	width: 100%;
+	height: 5.6rem /* 420/75 */;
+	background: #f00;
+	position: fixed;
+	left: 0;
+	top:0;
+}
+.detail .tabclick{
+	width: 100%;
+	height: 1.07rem;
+	border-bottom: 1px solid #ccc;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.detail .tabclick span.cur{
+	width: 33.3%;
+	text-align: center;
+	line-height:1.05rem /* 79/75 */;
+	font-size: 0.37rem;
+	color: #666;
+	position: relative;
+}
+.detail .tabclick span.tabstyle{
+	color:#f70
+}
+.detail .tabclick span.tabstyle:after{
+	display: inline-block;
+	position: absolute;
+	content: " ";
+	width: .4rem;
+	height: .08rem;
+	background-color: #f70;
+	bottom: 0;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.detail .detailcon{
+	position: fixed;
+	top:5.6rem /* 420/75 */;
+	left: 0;
+	width: 100%;
+}

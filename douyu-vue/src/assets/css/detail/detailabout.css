@@ -1,0 +1,34 @@
+
+
+
+.detailabout{
+	padding: 0.27rem /* 20/75 */;
+	position: absolute;
+	top:1.07rem;
+	width: 100%;
+	overflow-y: auto;
+	max-height: 9rem
+}
+.detailabout .aboutlist{
+	width: 100%;
+	height: 2.67rem;
+	background: #fff;
+	margin-bottom: 0.27rem;
+}
+.detailabout .aboutlist img{
+	width: 50%;
+	height: 100%;
+	border-radius: 0.27rem;
+	background: #0f0
+}
+.detailabout .aboutlist .aboutinfo{
+	padding-left: 0.27rem;
+	width: 4.47rem;
+	background: #fff;
+	overflow: hidden;
+}
+.detailabout .aboutlist .aboutinfo .room{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}

@@ -1,0 +1,110 @@
+
+
+
+.sea_header{
+	width: 100%;
+	height: 1.2rem;
+	background: #0f0;
+	border-bottom: 1px solid #ccc;
+}
+.sea_header input{
+	width: 8rem /* 600/75 */;
+	height: 0.8rem /* 60/75 */;
+	margin-top: 0.2rem /* 15/75 */;
+	margin-left: 0.27rem;
+	padding-left: 0.13rem /* 10/75 */;
+	font-size: 0.35rem;,
+	background: #f8f8f8;
+	color:#999;
+	border: none
+}
+input::-webkit-input-placeholder{color:#999;}
+
+.sea_header button{
+	width: 1.6rem /* 120/75 */;
+	height: 0.8rem;
+	text-align: center;
+	line-height: 0.8rem;
+	border: none;
+	margin-top: 0.2rem;
+	font-size:0.4rem /* 30/75 */
+}
+.homesearch .recent{
+	width: 100%;
+	height: 1.49rem;
+	font-size: 0.37rem /* 28/75 */;
+	color:#000;
+	line-height: 1.49rem;
+	padding-left: 0.27rem;
+	background: #fff;
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+}
+
+
+.homesearch .sealist{
+	width: 100%;
+	height: 5.87rem ;
+	background: #fff
+}
+.sealist .sealist_left{
+	width: 50%;
+}
+.sealist .sealist_right{
+	width: 50%;
+}
+.sealist p{
+	width: 100%;
+	height: 1.17rem;
+	padding-left: 0.27rem;
+	line-height: 1.17rem;
+	font-size: 0.4rem
+}
+.sealist p .number{
+	margin-right: 0.2rem;
+}
+.sealist  p .number{
+	width: 0.37rem /* 28/75 */;
+	height: 0.37rem;
+	display: block;
+	font-size: 0.21rem;
+	line-height: 0.37rem ;
+	margin-top: 0.41rem ;
+	background: #f2f2f2;
+	text-align: center;
+	color:#999;
+	background: #0f0
+}
+.sealist .sealist_left p:nth-child(1) .number{
+	width: 0.37rem /* 28/75 */;
+	height: 0.37rem;
+	display: block;
+	font-size: 0.21rem;
+	line-height: 0.37rem ;
+	margin-top: 0.41rem ;
+	background: #f00;
+	text-align: center;
+	color:#fff;
+}
+.sealist .sealist_left p:nth-child(2) .number{
+	width: 0.37rem /* 28/75 */;
+	height: 0.37rem;
+	display: block;
+	font-size: 0.21rem;
+	line-height: 0.37rem ;
+	margin-top: 0.41rem ;
+	background: #f60;
+	color:#fff;
+	text-align: center;
+}
+.sealist .sealist_left p:nth-child(3) .number{
+	width: 0.37rem /* 28/75 */;
+	height: 0.37rem;
+	display: block;
+	font-size: 0.21rem;
+	line-height: 0.37rem ;
+	margin-top: 0.41rem ;
+	background: #ff0;
+	color:#fff;
+	text-align: center;
+}

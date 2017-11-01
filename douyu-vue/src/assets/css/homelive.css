@@ -1,0 +1,90 @@
+.homelive{
+	background: #fff;
+	overflow: hidden;
+}
+.homelive .top{
+	width: 100%;
+	height: 1.12rem;
+	line-height: 1.12rem;
+	font-size: .4rem
+}
+.homelive .hot::before{
+	content: " ";
+	float: left;
+	width: .48rem;
+	height: 0.32rem;
+	margin: .39333rem .26667rem 0 .13333rem;
+	background: url(../images/homelive.png) no-repeat;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.homelive .change{
+	color:#999
+}
+.homelive .change::after{
+	content: " ";
+	float: right;
+	width: .48rem;
+	height: .48rem;
+	margin: .32rem .13333rem 0;
+	background: url(../images/homelook.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.homelive .livelist{
+	overflow: hidden;
+	margin-bottom: 0.27rem ;
+}
+.homelive .con{
+	position: relative;
+	margin-left: 0.13rem;
+	margin-bottom: 0.13rem;
+}
+.homelive .videoimg{
+	width: 4.8rem /* 360/75 */;
+	height: 2.72rem /* 204/75 */;
+	background: #f00;
+	display: block;
+	border-radius: 0.16rem;
+}
+.homelive .title{
+	width: 4.8rem;
+	height: 0.72rem;
+	font-size: .32rem;
+	line-height: 0.72rem;
+}
+.homelive .name{
+	position: absolute;
+	left: 0.13rem;
+	bottom: 0.85rem;
+	color:#fff
+}
+.homelive .name::before{
+	content: " ";
+	float: left;
+	margin-right: .08rem;
+	width: .29333rem;
+	height: .32rem;
+	background-image: url(../images/pericon.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-top: 0.2rem /* 15/75 */
+}
+.homelive .pernum{
+	position: absolute;
+	right: 0.13rem /* 10/75 */;
+	top:0.13rem;
+	color:#fff;
+}
+.homelive .pernum::before{
+	content: " ";
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -.02667rem;
+    margin-right: .08rem;
+    width: .26667rem;
+    height: .24rem;
+    background: url(../images/pernum.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

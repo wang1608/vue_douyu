@@ -1,0 +1,103 @@
+
+.detailcon .detailanchor{
+	/*padding-top: 0.27rem;*/
+	max-height: 9.5rem /* 1000/75 */;
+	overflow-y: auto;
+	position: absolute;
+	top:1.07rem;
+	width: 100%;
+}
+.detailanchor .anchor{
+	width: 100%;
+	height: 1.6rem;
+	background: #f00;
+	padding: 0.27rem;
+}
+.detailanchor .anchor .anchor_img{
+	width: 1.07rem;
+	height: 1.07rem;
+	border-radius: 50%;
+	margin-right: 0.27rem /* 20/75 */
+}
+.detailanchor .anchor .anchorname{
+	width: 100%;
+	height: 0.53rem;
+	line-height: 0.53rem ;
+}
+.detailanchor .anchor .anchorcate{
+	width: 100%;
+	height: 0.53rem;
+	line-height: 0.53rem ;
+}
+.detailanchor .anchor .anchorcate .cate{
+	color:#f70;
+	margin-right: 0.27rem /* 20/75 */
+}
+.detailanchor .anchortime{
+	width: 100%;
+	min-height: 0.8rem;
+	font-size: 0.27rem /* 20/75 */;
+	padding: 0 0.27rem /* 20/75 */;
+	color:#999;
+	line-height: 0.5rem;
+	border-bottom: 1px solid #ccc;
+}
+.detailanchor .videoabout{
+	width: 100%;
+	height: 1.07rem ;
+	line-height: 1.07rem;
+	padding-left: 0.27rem;
+	line-height: 1.07rem ;
+	font-size: 0.43rem;
+	background: #fff;
+}
+
+.videoaboutlist{
+	padding: 0 0.13rem /* 10/75 */;
+	overflow: hidden;
+	background: #fff;
+}
+.videoaboutlist .ancvideo{
+	width: 50%;
+	position: relative;
+}
+.detailanchor .videoaboutlist .ancimg{
+	width: 4.76rem;
+	height: 2.67rem;
+	border-radius: 0.13rem;
+	display: block;
+	margin: 0 auto;
+	background: #f00;
+}
+.videoaboutlist .ancvideo .anctitle{
+	position: absolute;
+	bottom: 0.73rem /* 55/75 */;
+	color:#fff;
+	left: 0.27rem /* 20/75 */;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.videoaboutlist .ancvideo .anccon{
+	padding: 0 0.27rem;
+	color:#999
+}
+.anchorfooter{
+	position: fixed;
+	left: 0;
+	bottom:0;
+	width: 100%;
+	height: 1.6rem;
+	background: url(https://shark.douyucdn.cn/app/douyu-mobile/m-douyu-v2/build/images/banner730fcb.png);
+	background-size: cover;
+}
+.anchorfooter .anchoropen{
+	width:1.93rem;
+	height: 0.8rem ;
+	background: url(https://shark.douyucdn.cn/app/douyu-mobile/m-douyu-v2/build/images/open1ed0836.png);
+	background-size: cover;
+	position: absolute;
+	right: 0.27rem ;
+	top:0.4rem
+}

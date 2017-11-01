@@ -1,0 +1,79 @@
+
+
+.homeheader{
+	border-bottom: 1px solid #ccc
+}
+.homemore .title{
+	width: 100%;
+	padding: 0 0.13rem;
+	background: #fff;
+	height: 1.13rem;
+	line-height: 1.13rem;
+	color:#fa7122
+}
+.homemore .title img{
+	width: 0.4rem;
+	height: 0.4rem;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 0.4rem /* 30/75 */
+}
+.homemorelist{
+	padding: 0.13rem 0.13rem;
+	overflow: hidden;
+	background: #fff;
+}
+.homemorelist .morecon{
+	width: 50%;
+	position: relative;
+	margin-bottom: 0.13rem;
+}
+.homemorelist .morecon img{
+	width: 4.6rem;
+	height: 2.61rem;
+	display: block;
+	margin: 0 auto;
+	border-radius:0.2rem;
+}
+.homemorelist .morecon .contitle{
+	width: 4rem;
+	height: 0.67rem;
+	line-height: 0.67rem;
+	padding-left: 0.27rem;
+	color: #333;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+	overflow: hidden;
+}
+.homemorelist .morecon .name{
+	position: absolute;
+	left: 0.27rem;
+	bottom:0.69rem /* 52/75 */;
+	color: #fff;
+	font-size: 0.37rem;
+}
+.homemorelist .morecon .pernum{
+	position: absolute;
+	right: 0.27rem ;
+	bottom:0.69rem /* 52/75 */ ;
+	color: #fff;
+	font-size: 0.37rem;
+}
+
+.homemorelist .morecon .pernum::before{
+	display: inline-block;
+	content: '';
+	margin-top: .2rem;
+	width: 0.4rem;
+	height: 0.3rem;
+	background: url(../images/pericon.png) no-repeat;
+	background-size: cover;
+	/*background-position: -1.73rem -.8rem;*/
+	vertical-align: top;
+}
+.homefooter .one{
+	display: none;
+}
+.homefooter .download{
+	display: none;
+}

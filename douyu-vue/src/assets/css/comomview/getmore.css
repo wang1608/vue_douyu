@@ -1,0 +1,11 @@
+
+.getmore{
+	width: 100%;
+	height: 1.12rem;
+	line-height: 1.12rem;
+	text-align: center;
+	font-size: 0.4rem;
+	color: #999;
+	background: #fff;
+	margin-bottom: 0.67rem /* 50/75 */
+}

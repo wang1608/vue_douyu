@@ -1,0 +1,46 @@
+
+.homefooter{
+	padding-bottom: 2.67rem /* 200/75 */
+}
+.homefooter .gotop{
+	display: inline-block;
+    vertical-align: middle;
+    background:url(../images/search.png) no-repeat;
+    background-size: 6.53333rem .53333rem;
+    height: .42667rem;
+    width: .4rem;
+    background-position: -5.06667rem 0;
+
+}
+.homefooter p{
+	text-align: center;
+	line-height: 0.45rem /* 34/75 */;
+	line-height: 0.45rem /* 34/75 */;
+	color:#999
+}
+.homefooter .one{
+	height: 1.33rem /* 100/75 */;
+	line-height: 1.33rem /* 100/75 */;
+	font-size: 0.4rem /* 30/75 */
+}
+.homefooter .download{
+	width:8.53rem /* 640/75 */;
+	height: 1.2rem /* 90/75 */;
+	background: #f70;
+	margin: 0 auto;
+	line-height: 1.2rem /* 90/75 */;
+	font-size: 0.37rem /* 28/75 */;
+	color: #fff;
+	margin-bottom: 0.4rem /* 30/75 */
+}
+
+
+.fixlogo{
+	width: 2.45rem /* 184/75 */;
+	height: 2.13rem /* 160/75 */;
+	background: url(../images/fixed.png) no-repeat center;
+	position: fixed;
+	right: 0;
+	bottom:2.67rem /* 200/75 */;
+	background-size: cover;
+}

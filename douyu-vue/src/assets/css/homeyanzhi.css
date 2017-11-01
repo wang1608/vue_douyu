@@ -1,0 +1,117 @@
+.homeyanzhi{
+	background: #fff;
+	overflow: hidden;
+	margin-bottom: 0.33rem /* 25/75 */
+}
+.homeyanzhi .top{
+	width: 100%;
+	height: 1.12rem;
+	line-height: 1.12rem;
+	font-size: .4rem
+}
+.homeyanzhi .hot::before{
+	content: " ";
+	float: left;
+	width: .48rem;
+	height: 0.48rem;
+	margin: .3rem .26667rem 0 .13333rem;
+	background: url(../images/yanzhi.png) no-repeat;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.homeyanzhi .change{
+	color:#999
+}
+.homeyanzhi .change::after{
+	content: " ";
+	float: right;
+	width: .48rem;
+	height: .48rem;
+	margin: .32rem .13333rem 0;
+	background: url(../images/more.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.homeyanzhi .livelist{
+	overflow: hidden;
+	margin-bottom: 0.27rem ;
+}
+.homeyanzhi .con{
+	position: relative;
+	margin-left: 0.13rem;
+	margin-bottom: 0.13rem;
+	width: 4.8rem;
+}
+.homeyanzhi .videoimg{
+	width: 4.8rem /* 360/75 */;
+	height: 4.8rem /* 360/75 */;
+	background: #f00;
+	display: block;
+	border-radius: 0.16rem;
+}
+.homeyanzhi .title{
+	/*width: 4.8rem;*/
+	height: 0.72rem;
+	font-size: .32rem;
+	line-height: 0.72rem;
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 2.67rem /* 200/75 */
+}
+.homeyanzhi .position{
+	/*width: 4.8rem;*/
+	height: 0.72rem;
+	font-size: .32rem;
+	line-height: 0.72rem;
+	display: inline-block;
+}
+.homeyanzhi .position::before{
+	content: " ";
+	float: left;
+	width: .3rem;
+	height: 0.4rem;
+	margin: .15rem .26667rem 0 .13333rem;
+	background: url(../images/position.png) no-repeat;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.homeyanzhi .name{
+	position: absolute;
+	left: 0.13rem;
+	bottom: -0.85rem;
+	color:#333
+}
+.homeyanzhi .title::before{
+	content: " ";
+	float: left;
+	margin-right: .08rem;
+	width: .29333rem;
+	height: .32rem;
+	background-image: url(../images/pericon.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-top: .15rem
+}
+.homeyanzhi .pernum{
+	position: absolute;
+	right: 0.2rem /* 15/75 */;
+	top:0.2rem;
+	color:#fff;
+	background: rgba(0,0,0,.65);
+	padding: 0.13rem;
+	border-radius: 0.13rem;
+}
+.homeyanzhi .pernum::before{
+	content: " ";
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -.02667rem;
+    margin-right: .08rem;
+    width: .26667rem;
+    height: .24rem;
+    /*background: url(../images/pernum.png);*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
